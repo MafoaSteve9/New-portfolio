@@ -24,3 +24,6 @@ html, body {
     background: #144098;
     color: #fff;
   }
+  span img {
+    width: 30px;
+  }

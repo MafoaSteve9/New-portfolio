@@ -7,7 +7,12 @@
         <div class="col-md-8 mt-5 text-center">
           <button (click)="toggleTheme()" id="mode">
             <i class="fas fa-moon"></i>
-            <span>Thème sombre</span>
+            <!-- <span><img src="light.png" alt=""></span> -->
+            @if (isDarkMode()) {
+              <span><img src="light.png" alt="Passer en mode sombre"></span>
+            } @else {
+              <span><img src="dark.png" alt="Passer en mode clair"></span>
+            }
           </button>
         </div>
       </div>

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './themes.component.css'
 })
 export class ThemesComponent implements OnInit {
- buttonText: string = "Thème sombre";
+ buttonText: string  = "Thème sombre";
 
  ngOnInit(): void {
      if (localStorage.getItem('theme') === 'sombre') {
@@ -22,6 +22,10 @@ export class ThemesComponent implements OnInit {
   } else {
     this.enableDarkMode();
   }
+}
+
+isDarkMode(): boolean {
+  return document.body.classList.contains('dark');
 }
 
  private enableDarkMode() {
