@@ -18,7 +18,7 @@ export const MOCK_DETAILS_PROJET: Details[] = [
     {
         id: 2,
         title: "Projet Angular CC",
-        description: "Clone interactif de carte bancaire.",
+        description: "Clone interactif de carte bancaire avec un formulaire pour changer les données.",
         langages: "🔴 Angular",
         link: "https://project-angular-cc.vercel.app/"
     },
@@ -39,7 +39,7 @@ export const MOCK_DETAILS_PROJET: Details[] = [
     {
         id: 5,
         title: "Portfolio",
-        description: "Ce portfolio a été méticuleusement conçu avec ReactJS 18 et stylisé avec Tailwind CSS",
+        description: "Ce portfolio a été méticuleusement conçu avec ReactJS 18 et stylisé avec Tailwind CSS.",
         langages: "🔵 React",
         link: "https://portfolio-stevemafoa.vercel.app/"
     },
