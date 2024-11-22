@@ -1,0 +1,13 @@
+<div class="projet">
+    <h2>Projets</h2>
+    @for (detail of details; track $index) {
+        <div class="box">
+            <h3>{{detail.title}}</h3>
+            <p>{{detail.description}}</p>
+            <div class="box2">
+                <p>{{detail.langages}}</p>
+                <a href={{detail.link}} target="_blank"><p>View Project 🕳️</p></a>
+            </div>
+        </div>
+    }
+</div>

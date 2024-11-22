@@ -1,0 +1,43 @@
+.box {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    border: solid #e5e7eb;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:  #737373;
+    /* font-size: 16px; */
+    line-height: 24px;
+}
+h3 {
+    color: black;
+    font-size: 16px;
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.box2 a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 64rem) {
+    .projet {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .box {
+        width: 40%;
+    }
+    h2 {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    * {
+        font-size: 14px;
+    }
+}
