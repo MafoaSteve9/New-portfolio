@@ -1,29 +1,19 @@
 html, body {
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
     min-width: 300px;
     box-sizing: border-box;
-  }
+  } 
   
-  button {
-    border: 1px;
-    border-radius: 15px;
-    padding: 15px;
-    cursor: pointer;
-  }
-  
-  * {
-    outline: 0;
-  }
-  
-  .dark {
-    background-color: #112F41;
+  /* .dark {
+    background-color: black;
     color: #ffffff;
   }
-  
-  .dark button {
-    background: #144098;
-    color: #fff;
+  .dark p {
+    color: rgba(255, 255, 255, 0.877);
   }
-  span img {
-    width: 30px;
+  .dark p strong {
+    color: rgba(38, 165, 144, 0.993);
   }
+button .light {
+  background-color: #112F41;
+} */
