@@ -1,0 +1,30 @@
+/* Style de base pour mobile */
+.container {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style pour tablette */
+  @media (min-width: 48rem) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+  }
+  
+  /* Style pour desktop */
+  @media (min-width: 64rem) {
+    .container {
+      display: flex;
+      width: 70%;
+      margin: 0 auto;
+    }
+    .work-xp {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
