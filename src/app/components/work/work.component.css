@@ -62,7 +62,7 @@ span {
 
 @media (min-width: 64rem) {
     .projet {
-        width: 89%;
+        width: 87%;
     }
     .div-img {
         width: 50px;
@@ -77,5 +77,8 @@ span {
         flex-direction: column;
         margin: 20px;
         border: none;
+    }
+    h2 {
+        font-size: 20px;
     }
 }
