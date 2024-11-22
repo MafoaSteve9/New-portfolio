@@ -1,18 +1,9 @@
-<body>
-    <div class="">
-      <div class="">
-      </div>
-      
-      <div class="">
-        <div class="">
-          <button (click)="toggleTheme()" id="mode">
-            @if (isDarkMode()) {
-              <span><img src="light.png" alt="Passer en mode clair"></span>
-            } @else {
-              <span><img src="dark.png" alt="Passer en mode sombre"></span>
-            }
-          </button>
-        </div>
-      </div>
-    </div>
-  </body>
+<div class="toggleTheme">
+  <button (click)="toggleTheme()" id="mode">
+    @if (isDarkMode()) {
+      <span><img src="light.png" alt="Passer en mode clair"></span>
+    } @else {
+      <span><img src="dark.png" alt="Passer en mode sombre"></span>
+    }
+  </button>
+</div>

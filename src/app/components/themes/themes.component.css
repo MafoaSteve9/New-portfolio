@@ -1,0 +1,11 @@
+button {
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #ffffff00;
+    
+}
+span img {
+    max-width: 20px;
+}
