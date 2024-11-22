@@ -1,0 +1,141 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.contact, .skills-div {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border: solid #e5e7eb;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:  #737373;
+    font-size: 14px;
+
+}
+h2 {
+    color: black;
+}
+.skills-div {
+    padding: 12px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+    
+}
+.skills p {
+    padding: 4px;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #e5e7eb;
+    font-weight: 600;
+    font-size: 12px;
+}
+/* .about-contact {
+    font-size: 16px;
+} */
+img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid rgba(211, 208, 208, 0.089);
+}
+.img-profil {
+    display: flex;
+    gap: 6px;
+
+}
+strong {
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+.img-profil p {
+    line-height: 20px;
+    /* font-size: 14px; */
+    /* color:  #737373; */
+    margin: 0;
+}
+.about-contact {
+    line-height: 20px;
+}
+.btn-contact {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #171717;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn-contact a {
+    text-decoration: none;
+    color: white;
+}
+.btn-contact:hover {
+    background-color: #171717ea;
+}
+.linkedin {
+    border-top: solid #e5e7eb;
+    border-width: 1px;
+    padding-top: 10px;
+}
+.social img {
+    border: none;
+}
+.social p {
+    margin: 0;
+    padding: 5px
+}
+.github img {
+    object-fit: cover;
+    height: 20px;
+    margin-bottom: 0;
+    width: 20px;
+}
+.linkedin img {
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0;
+}
+.cv img {
+    object-fit: cover;
+    margin-bottom: 0;
+    height: 20px;
+    width: 20px;
+}
+.github, .cv, .linkedin {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+@media (min-width: 64rem) {
+    .img-profil {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    
+    }
+    img {
+        width: 16rem;
+        height: 16rem;
+        border-radius: 50%;
+        object-fit: cover;
+        border: solid rgba(211, 208, 208, 0.089);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+    
+}
